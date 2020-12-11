@@ -1,0 +1,114 @@
+.ourRoom {
+    /* height: auto; */
+}
+
+
+/* start ourRoom__title */
+
+.ourRoom__title {
+    width: 100%;
+    height: 38rem;
+    background-image: url("../../Img/typeRoom/breadcrumb-bg.jpg");
+}
+
+.ourRoom__title h1 {
+    color: white;
+    font-size: 7rem;
+    font-weight: 700;
+    text-transform: none;
+    padding-top: 15rem;
+}
+
+
+/* End ourRoom__title */
+
+
+/* Start ourRoom__types */
+
+.ourRoom__types {
+    display: block;
+    margin-bottom: 10rem;
+}
+
+
+/* Start ourRoom__types typeRoom__detail */
+
+.typeRoom__detail {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 1.8rem;
+}
+
+.typeRoom__detail:nth-child(2) .room__infor {
+    order: 2;
+    margin-left: 7rem;
+}
+
+.typeRoom__detail:nth-child(4) .room__infor {
+    order: 2;
+    margin-left: 7rem;
+}
+
+
+/*  Start ourRoom__types typeRoom__detail room__infor*/
+
+.room__infor {
+    display: block;
+    margin-top: 3rem;
+}
+
+.room__infor h3 {
+    text-transform: none;
+    font-size: 3rem;
+    line-height: 3rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+}
+
+.room__infor .room__price {
+    font-weight: bold;
+}
+
+.room__infor .room__price span {
+    font-size: 3.5rem;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.room__infor .other__infor {
+    font-size: 3rem;
+    padding-top: 3.5rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    color: #1d1c1c;
+    line-height: 3.5rem;
+}
+
+.room__infor .other__infor .infor h6 {
+    text-transform: none;
+}
+
+.room__infor .other__infor .answer h6 {
+    text-transform: none;
+}
+
+.room__infor .room__select {
+    margin-top: 4rem;
+}
+
+.room__infor .room__select a button {
+    height: 3rem;
+    width: auto;
+    background-color: #e9ad28;
+    border-style: none;
+}
+
+
+/*  End ourRoom__types typeRoom__detail room__infor*/
+
+
+/* End ourRoom__types typeRoom__detail */
+
+
+/* End ourRoom__types */

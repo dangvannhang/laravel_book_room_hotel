@@ -1,0 +1,60 @@
+ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+ul a li {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.padding20 {
+    padding: 0 20rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+}
+
+.active {
+    color: #e9ad28;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Tạo khuôn mẫu trang bằng flexbox */
+
+.fullPage {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+}
+
+.header {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.8rem;
+}
+
+.footer {
+    background-image: url("../../Img/footer-bg.jpg");
+    height: auto;
+    color: #777c81;
+    display: grid;
+    grid-template-columns: 1fr;
+}

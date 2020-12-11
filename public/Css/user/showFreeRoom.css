@@ -1,0 +1,42 @@
+.showFreeRoom {
+    margin: 10rem 0;
+}
+
+.showFreeRoom .title {
+    color: red;
+    margin-bottom: 5rem;
+}
+
+.tableFreeRoom {
+    border-collapse: collapse;
+}
+
+.tableFreeRoom tr {
+    color: red;
+}
+
+.tableFreeRoom tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tableFreeRoom th {
+    padding: 2rem 3rem;
+    background: #4CAF50;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    width: 30rem;
+}
+
+.tableFreeRoom td {
+    text-align: center;
+    padding: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.tableFreeRoom .btn__bookRoom {
+    border-style: none;
+    background: #e9ad28;
+    border-radius: 1rem;
+    height: 3rem;
+}

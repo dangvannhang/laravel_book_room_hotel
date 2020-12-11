@@ -1,0 +1,62 @@
+/* ***** Start header__top ***** */
+
+.header__top {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.header__top--infor ul li {
+    padding-right: 3rem;
+}
+
+.header__top--accept ul li {
+    display: inline;
+}
+
+
+/* ***** End header__top ***** */
+
+
+/* ***** Start header__content ***** */
+
+.header__content {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+
+/* Start .header__content--sidebar */
+
+.header__content--sidebar {
+    background-color: #1a1a1a;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20rem;
+}
+
+.header__content--sidebar ul {
+    padding: 3.2rem 0 3.2rem 4rem;
+}
+
+.header__content--sidebar ul li {
+    padding: 0 6rem;
+}
+
+.header__content--sidebar ul li:last-child {
+    padding-right: 0;
+}
+
+.header__content--sidebar .link {
+    color: #ffffff;
+}
+
+
+/* End .header__content--sidebar */
+
+
+/* ***** End header__content ***** */

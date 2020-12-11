@@ -1,0 +1,4 @@
+Tại đây, code css sẽ được chia ra thành các file riêng để dễ quản lí.
+    + File reset: chứa toàn bộ code để định dạng lại các thuộc tính css của trang web.
+    + File master: chứa toàn bộ các code mà các trang đều dùng chung như là button, các form.
+    + Các file css còn lại thì sẽ định dạng cho chính nó.

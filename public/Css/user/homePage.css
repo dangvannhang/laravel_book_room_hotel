@@ -1,0 +1,562 @@
+/* Start content__top--bookRoom */
+
+.content__top--bookRoom {
+    background-image: url("../../Img/homePage/hero.jpg");
+    height: 75rem;
+}
+
+.content__top--title {
+    padding-top: 15rem;
+}
+
+.content__top--title .hotel__name {
+    color: #e9ad28;
+    font-family: "Barlow Condensed", sans-serif;
+    margin-bottom: 4.5rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.hotel__slogan {
+    font-size: 6.2rem;
+    line-height: 8.2rem;
+    font-weight: 600;
+    text-transform: none;
+    width: 90rem;
+    color: #ffffff;
+}
+
+form {
+    margin-top: 6rem;
+    background-color: white;
+    height: auto;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.form__checkRoom .form__infor {
+    margin: 3rem;
+    color: #777c81;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.form__check {
+    display: grid;
+    grid-template-columns: 100%;
+    float: left;
+    padding: 0 3rem;
+}
+
+.form__check label {
+    margin-bottom: 2rem;
+}
+
+.form__check input,
+select {
+    height: 4rem;
+    font-size: 2rem;
+    border: 0.11 rem solid #e6e6e6;
+}
+
+.form__btn--submit {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+
+/* End content__top--bookRoom */
+
+
+/* Start content__aboutUs */
+
+
+/* Start .content__aboutUs .aboutUs__intro--infor */
+
+.content__aboutUs {
+    height: auto;
+    background-color: #ffffff;
+}
+
+.aboutUs__intro--infor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutUs__intro--infor .welcome {
+    padding-top: 15rem;
+    padding-right: 10rem;
+}
+
+.aboutUs__intro--infor .welcome h3 {
+    color: #e9ad28;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 5rem;
+}
+
+.aboutUs__intro--infor .welcome h6 {
+    text-transform: none;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 600;
+}
+
+.aboutUs__intro--infor .welcome p:nth-child(3) {
+    color: #777c81;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.aboutUs__intro--infor .welcome p:last-child {
+    color: #777c81;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.aboutUs__intro--infor .image {}
+
+
+/* End content__aboutUs .aboutUs__intro--infor*/
+
+
+/* Start content__aboutUs .aboutUs__intro--service  */
+
+.aboutUS__intro--service {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 7rem;
+    margin-bottom: 15rem;
+}
+
+.service {
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+}
+
+.service:last-child {
+    margin-right: 0;
+}
+
+.service .service__name {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-style: bold;
+    padding: 3rem 0 2.5rem 0;
+}
+
+.service .service__desc {
+    font-size: 1.5rem;
+    color: #777c81;
+    line-height: 1.6rem;
+}
+
+
+/* End content__aboutUs .aboutUs__intro--service  */
+
+
+/* End content__aboutUs */
+
+
+/* Start content__ourRoom */
+
+.ourRoom__intro--typeRoom {
+    display: grid;
+    margin-bottom: 10rem;
+}
+
+
+/* Start content__ourRoom ourRoom__intro--typeRoom */
+
+.intro__typeRoom--title {
+    margin-bottom: 7rem;
+}
+
+.intro__typeRoom--title p {
+    color: #e9ad28;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-bottom: 5rem;
+    text-transform: uppercase;
+}
+
+.intro__typeRoom--title h1 {
+    text-transform: none;
+    font-size: 4.5rem;
+    color: black;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.intro__typeRoom--image {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5rem;
+}
+
+.typeRoom__image--cart {
+    position: relative;
+    margin: 0 1rem;
+}
+
+.typeRoom__image--cart:hover .infor__room {
+    top: 50%;
+}
+
+.typeRoom__image--cart:hover .booking {
+    display: block;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.typeRoom__image--cart img {
+    width: 100%;
+    height: 50rem;
+}
+
+.typeRoom__image--cart .infor__room {
+    position: absolute;
+    z-index: 2;
+    bottom: 10%;
+    left: 5%;
+    color: #ffffff;
+}
+
+.typeRoom__image--cart .booking {
+    position: absolute;
+    z-index: 3;
+    bottom: 10%;
+    left: 40%;
+    display: none;
+}
+
+.typeRoom__image--cart .booking a {
+    color: #ffffff;
+}
+
+.typeRoom__image--cart .booking span {
+    line-height: 0.2rem;
+    background-color: #e9ad28;
+}
+
+.infor__room h1 {
+    text-transform: none;
+    font-size: 2.4rem;
+    font-weight: 700;
+    padding-bottom: 2.5rem;
+}
+
+.infor__room span {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.intro__typeRoom--advance {
+    padding-top: 2rem;
+    display: inline;
+}
+
+.intro__typeRoom--advance h3 {
+    text-transform: none;
+    float: left;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 5rem;
+    font-weight: 600;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.intro__typeRoom--advance button {
+    float: right;
+    background-color: #e9ad28;
+    color: #ffffff;
+    height: 5rem;
+    font-size: 2rem;
+    width: auto;
+    padding: 0 1.5rem;
+}
+
+
+/* End content__ourRoom ourRoom__intro--typeRoom */
+
+
+/* Start content__ourRoom ourRoom__intro--comments */
+
+.ourRoom__intro--comments {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    height: auto;
+}
+
+
+/* Start content__ourRoom .ourRoom__intro--comments show__comments--customer  */
+
+.show__comments--customer {
+    padding-left: 7rem;
+    position: relative;
+}
+
+.show__comments--customer h2 {
+    padding-top: 10rem;
+    font-size: 4.4rem;
+    line-height: 5rem;
+    text-transform: none;
+    font-weight: 500;
+}
+
+
+/*  Slide show*/
+
+.slideShow__container {
+    position: relative;
+}
+
+.fade {
+    display: none;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    bottom: 0%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: 0.6s ease;
+    user-select: none;
+}
+
+.prev {
+    right: 20%;
+}
+
+.next {
+    right: 10%;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+/*  Slide show*/
+
+
+/* Start content__ourRoom .ourRoom__intro--comments show__comments--customer  all__comment--customer*/
+
+.show__comments--customer .all__comment--customer {
+    margin-top: 4rem;
+}
+
+.show__comments--customer .all__comment--customer .vote {
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.show__comments--customer .all__comment--customer .vote h5 {
+    float: left;
+    font-weight: bold;
+    text-transform: none;
+}
+
+.show__comments--customer .all__comment--customer .vote h6 {
+    right: 5%;
+}
+
+.show__comments--customer .all__comment--customer .detail__comment {
+    line-height: 3rem;
+    color: #777c81;
+    text-align: justify;
+    font-size: 1.7rem;
+}
+
+.show__comments--customer .all__comment--customer h3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 2rem;
+}
+
+.show__comments--customer .all__comment--customer span {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.show__comments--customer .all__comment--customer .number__comment {
+    margin-left: 3rem;
+}
+
+.show__comments--customer .all__comment--customer .date__comment {
+    font-size: 2rem;
+    line-height: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+/* End content__ourRoom .ourRoom__intro--comments show__comments--customer  all__comment--customer*/
+
+
+/* End content__ourRoom .ourRoom__intro--comments show__comments--customer  */
+
+
+/* End content__ourRoom ourRoom__intro--comments */
+
+
+/* End content__ourRoom */
+
+
+/* Start content__reason */
+
+.content__reason {
+    margin-top: 10rem;
+    width: 100%;
+    height: 43rem;
+    background-image: url("../../Img/homePage/chooseus-bg.jpg");
+}
+
+.content__reason--why {
+    color: white;
+    padding-top: 8rem;
+}
+
+.content__reason--why h3 {
+    color: #e9ad28;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 600;
+}
+
+.content__reason--why p {
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 5rem;
+    padding: 0 30rem;
+}
+
+.content__reason--why button {
+    margin-top: 4rem;
+    height: 5rem;
+    width: 15rem;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+
+/* End content__reason */
+
+
+/* Start content__gallery */
+
+.content__gallery {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+
+/* Start content__gallery content__gallery--infor */
+
+.content__gallery--infor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery__infor--title p {
+    color: #e9ad28;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+    font-weight: 600;
+}
+
+.gallery__infor--title h3 {
+    text-transform: none;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.gallery__infor--description p {
+    color: #777c81;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.gallery__infor--description button {
+    height: 5rem;
+    width: 15rem;
+    background-color: #e9ad28;
+    margin-top: 4rem;
+    border-style: none;
+}
+
+
+/* End content__gallery content__gallery--infor */
+
+
+/* Start content__gallery content__gallery--image */
+
+.content__gallery--image {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+}
+
+.content__gallery--image .image img {
+    max-width: 100%;
+    height: 65rem;
+}
+
+
+/* End content__gallery content__gallery--image */
+
+
+/* End content__gallery */

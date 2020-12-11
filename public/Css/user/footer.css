@@ -1,0 +1,80 @@
+/* Start footer__top */
+
+.footer__top {
+    height: auto;
+    padding: 3rem 20rem 0 20rem;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+}
+
+.footer__top--item {
+    line-height: 2rem;
+}
+
+.footer__top--title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer__top--slogan p {
+    text-align: justify;
+    padding-right: 3rem;
+}
+
+.footer__top--contact {
+    margin-right: 2rem;
+}
+
+.footer__top--contact .contact__item {
+    margin-bottom: 1rem;
+}
+
+.footer__top--quickLinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer__top--myTeam p {
+    text-align: justify;
+}
+
+.footer__top--myTeam li {
+    list-style-type: circle;
+}
+
+.infor__team {
+    color: #ffffff;
+}
+
+
+/* End footer__bottom */
+
+
+/* start footer__bottom */
+
+.footer__bottom {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0;
+}
+
+.footer_bottom_copyright {
+    margin-right: 3rem;
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+
+.footer_bottom_copyright span {
+    font-size: 2rem;
+}
+
+.footer__bottom--icons .icon {
+    padding: 0 1rem;
+}
+
+
+/* End footer__bottom */
